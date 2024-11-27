@@ -34,7 +34,7 @@ if(TARGET Qt::Widgets)
     )
 endif()
 
-add_subdirectory(plugin_custom_geometry)
+add_subdirectory(plugin_example)
 
 # Qt6: Generates an additional static library called ${PROJECT_NAME}plugin. <- Plugin cmake project name uses LOWER casing
 target_link_libraries(
